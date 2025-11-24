@@ -1,0 +1,14 @@
+**/target/
+**/node_modules/
+**/.idea/
+**/.vscode/
+**/*.class
+**/*.log
+**/.DS_Store
+**/dist/
+**/build/
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/

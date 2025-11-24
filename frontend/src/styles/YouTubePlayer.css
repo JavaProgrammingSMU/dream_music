@@ -1,0 +1,112 @@
+.youtube-player-container {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.youtube-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  color: #6a6a7a;
+  text-align: center;
+}
+
+.youtube-placeholder p {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.music-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 20px;
+  background: rgba(102, 126, 234, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.music-icon {
+  width: 44px;
+  height: 44px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+
+.music-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.music-details h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.music-details p {
+  font-size: 13px;
+  color: #a0a0b0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.external-link {
+  padding: 10px;
+  color: #a0a0b0;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.external-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #667eea;
+}
+
+.music-reason {
+  padding: 12px 20px;
+  background: rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.music-reason p {
+  font-size: 13px;
+  color: #a0a0b0;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.youtube-embed {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  background: #000;
+}
+
+.youtube-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .youtube-player-container {
+    margin-top: 20px;
+  }
+}
