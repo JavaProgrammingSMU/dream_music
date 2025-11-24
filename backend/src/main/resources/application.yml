@@ -26,13 +26,13 @@ jwt:
 
 openai:
   api:
-    key: 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
+    key: your-api-key
     url: https://api.openai.com/v1/chat/completions
     model: gpt-3.5-turbo
 
 youtube:
   api:
-    key: AIzaSyBhTYjKIyHg1xntVFGLfFBWVWuI2XPg7gs
+    key: your-api-key
 
 logging:
   level:
